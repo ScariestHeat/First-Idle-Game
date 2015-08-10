@@ -8,9 +8,9 @@ public class MinionNumberDisplay : MonoBehaviour {
 	public AngelBuying minions;
 
 
+
 	void Update()
 	{
 		minioninfo.text = minionname + "" + " " + minions.count;
 	}
-
 }

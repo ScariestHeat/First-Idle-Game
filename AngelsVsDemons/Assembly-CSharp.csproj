@@ -47,9 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AngelBuying.cs" />
+     <Compile Include="Assets\Scripts\CurrencyConverter.cs" />
+     <Compile Include="Assets\Scripts\ItemCountDisplay.cs" />
+     <Compile Include="Assets\Scripts\Itemmanager.cs" />
      <Compile Include="Assets\Scripts\MinionNumberDisplay.cs" />
      <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\SoulClick.cs" />
+     <Compile Include="Assets\Scripts\Soulspersec.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
