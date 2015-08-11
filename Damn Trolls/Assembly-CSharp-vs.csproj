@@ -46,10 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\HitAnimation.cs" />
-     <Compile Include="Assets\InputHandler.cs" />
-     <Compile Include="Assets\Mouse.cs" />
-     <Compile Include="Assets\TrollSmack.cs" />
+     <Compile Include="Assets\HealthScripts\Enemy.cs" />
+     <Compile Include="Assets\HealthScripts\GiveDamageToEnemy.cs" />
+     <Compile Include="Assets\HealthScripts\HealthBar.cs" />
+     <Compile Include="Assets\HealthTest.cs" />
+     <Compile Include="Assets\Scripts\HitAnimation.cs" />
+     <Compile Include="Assets\Scripts\InputHandler.cs" />
+     <Compile Include="Assets\Scripts\Mouse.cs" />
+     <Compile Include="Assets\Scripts\TrollSmack.cs" />
+     <Compile Include="Assets\Spawner.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
